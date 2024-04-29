@@ -1,0 +1,48 @@
+
+/*Colors*/
+:root[data-theme="light"] {
+    --text: #0a150d;
+    --background: #f5faf6;
+    --primary: #3ba55b;
+    --secondary: #b5ae4a;
+    --accent: #5dda82;
+  }
+  :root[data-theme="dark"] {
+    --text: #eaf5ed;
+    --background: #050a06;
+    --primary: #5ac47a;
+    --secondary: #b5ae4a;
+    --accent: #25a24a;
+  }
+  /*Font*/
+@import url('https://fonts.googleapis.com/css?family=Encode%20Sans%20SC:700|Encode%20Sans%20SC:400');
+
+body {
+  font-family: 'Encode Sans SC';
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Encode Sans SC';
+  font-weight: 700;
+}
+
+html {font-size: 100%;} /* 16px */
+
+h1 {font-size: 4.210rem; /* 67.36px */}
+
+h2 {font-size: 3.158rem; /* 50.56px */}
+
+h3 {font-size: 2.369rem; /* 37.92px */}
+
+h4 {font-size: 1.777rem; /* 28.48px */}
+
+h5 {font-size: 1.333rem; /* 21.28px */}
+
+small {font-size: 0.750rem; /* 12px */}
+
+/*Start of CSS*/
+h1{
+    background-color: --primary;
+}
+  
